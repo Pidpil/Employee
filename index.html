@@ -97,7 +97,7 @@
             </div>
             <div class="col-md-4 mb-3">
                 <label for="chronicDiseases" class="form-label">โรคประจำตัว</label>
-                <input type="text" class="form-control" name="chronicDiseases" id="chronicDiseases">
+                <input type="text" class="form-control" name="chronicDiseases" id="chronicDiseases"  required>
             </div>
         </div>
 
@@ -111,6 +111,7 @@
                     <option value="ปริญญาตรี">ปริญญาตรี</option>
                     <option value="ปริญญาโท">ปริญญาโท</option>
                     <option value="ปริญญาเอก">ปริญญาเอก</option>
+                    <option value="อื่น ๆ">อื่น ๆ</option>
                 </select>
             </div>
             <div class="col-md-4 mb-3">
@@ -136,6 +137,15 @@
                     <option value="ศรีธัญญา 7">ศรีธัญญา 7</option>
                     <option value="ฟื้นฟู 1">ฟื้นฟู 1</option>
                     <option value="ฟื้นฟู 5">ฟื้นฟู 5</option>
+                    <option value="ศูนย์กลุ่มบำบัด">ศูนย์กลุ่มบำบัด</option>
+                    <option value="ศูนย์กลุ่มบำบัดยาเสพติด">ศูนย์กลุ่มบำบัดยาเสพติด</option>
+                    <option value="HA">HA</option>
+                    <option value="Excellent">Excellent</option>
+                    <option value="เครือข่ายชุมชน">เครือข่ายชุมชน</option>
+                    <option value="ศึกษาอบรม">ศึกษาอบรม</option>
+                    <option value="ศูนย์นวัตกรรม">ศูนย์นวัตกรรม</option>
+                    <option value="กลุ่มการพยาบาล">กลุ่มการพยาบาล</option>
+                    <option value="อื่น ๆ">อื่น ๆ</option>
                 </select>
               </div>
             <div class="col-md-4 mb-3">
@@ -145,6 +155,7 @@
                     <option value="พนักงานราชการ">พนักงานราชการ</option>
                     <option value="พนักงานกระทรวงฯ">พนักงานกระทรวงฯ</option>
                     <option value="ผู้ช่วยเหลือคนไข้">ผู้ช่วยเหลือคนไข้</option>
+                    <option value="ผู้ช่วยพยาบาล">ผู้ช่วยเหลือพยาบาล</option>
                     <option value="พยาบาลวิชาชีพปฏิบัติการ">พยาบาลวิชาชีพปฏิบัติการ</option>
                     <option value="พยาบาลวิชาชีพชำนาญงาน">พยาบาลวิชาชีพชำนาญงาน</option>
                     <option value="พยาบาลวิชาชีพชำนาญการ">พยาบาลวิชาชีพชำนาญการ</option>
@@ -194,18 +205,18 @@
         </div>
             <div class="col-md-4 mb-3">
                 <label for="additionalTraining" class="form-label">อบรมเพิ่มเติม</label>
-                <input type="text" class="form-control" name="additionalTraining" id="additionalTraining">
+                <input type="text" class="form-control" name="additionalTraining" id="additionalTraining"  required>
          </div>
-             <div class="row mt-3">
-             <div class="col-md-4 mb-3">
+            <div class="row mt-3">
+            <div class="col-md-4 mb-3">
                 <label for="email" class="form-label">Email</label>
                 <input type="email" class="form-control" name="email" id="email" required>
-         </div>
-             <div class="col-md-4 mb-3">
-                <label for="photoUrl" class="form-label">รูปถ่าย (URL)</label>
-                <input type="url" class="form-control" name="photoUrl" id="photoUrl">
-         </div>
-     </div>
+              </div>
+            <div class="col-md-4 mb-3">
+                <label for="phone" class="form-label">เบอร์ติดต่อ</label>
+                <input type="text" class="form-control" name="phone" id="phone"  required>
+          </div>
+          </div>
 
     <button type="submit" class="btn btn-primary">🏡 Submit</button>
 </form>
